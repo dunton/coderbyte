@@ -1,0 +1,22 @@
+// Have the function PrimeTime(num) take the num parameter being passed
+// and return the string true if the parameter is a prime number, otherwise
+// return the string false. The range will be between 1 and 2^16.
+
+function PrimeTime(num) { 
+
+  // code goes here  
+  for (var i = 2; i<num;i++){
+   	if (num % i === 0){
+    return false;
+    }
+    else {
+     	return true 
+    }
+  }
+  
+         
+}
+   
+// keep this function call here 
+// to see how to enter arguments in JavaScript scroll down
+PrimeTime(readline());
